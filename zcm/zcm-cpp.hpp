@@ -44,8 +44,6 @@ class ZCM
 
     inline void flush();
 
-    inline void flush();
-
     inline int publish(const std::string& channel, const char *data, uint32_t len);
 
     // Note: if we make a publish binding that takes a const message reference, the compiler does
